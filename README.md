@@ -1,0 +1,8 @@
+# API-LSA
+backend proyecto
+
+
+o Kamila Arias
+o Aplicaciones Hibridas
+o Jhonatan Cruz
+o DWT4AP
