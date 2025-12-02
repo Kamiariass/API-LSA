@@ -1,4 +1,3 @@
-// models/Sign.js
 const mongoose = require('mongoose');
 
 const SignSchema = new mongoose.Schema({

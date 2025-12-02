@@ -1,4 +1,3 @@
-// routes/signRoutes.js
 const express = require('express');
 const { getSigns, getSignById, createSign, updateSign, deleteSign } = require('../controllers/signController');
 const { protect } = require('../middleware/authMiddleware');
@@ -9,10 +8,10 @@ const router = express.Router();
 // RUTAS PÚBLICAS
 // ------------------------------------------------------------------
 
-// GET /api/signs (Obtener todas las señas, con filtros/búsqueda)
+// GET Obtener todas las señas, con filtros/búsqueda
 router.route('/').get(getSigns);
 
-// GET /api/signs/:id (Obtener una seña por ID)
+// GET Obtener una seña por ID
 router.route('/:id').get(getSignById);
 
 
